@@ -7,7 +7,7 @@
   <arg name="gui" default="true" />
   
   <!--Robot descriprion -->
-  <param name="robot_description" textfile="$(find piatek_description)/urdf/exercici51.urdf" />  
+  <param name="robot_description" textfile="$(find Exercici5.1)/urdf/exercici51.urdf" />  
 
   <!-- Joint_state_publisher -->
   <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
