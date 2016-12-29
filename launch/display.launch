@@ -3,7 +3,7 @@
 <launch>
 
   <!-- Load your robot -->
-  <arg name="robot" default="Exercici5.1"/>
+  <arg name="robot" default="exercici51"/>
   <arg name="gui" default="true" />
   
   <!--Robot descriprion -->
@@ -26,4 +26,4 @@
 </launch>
 
 
-
+  

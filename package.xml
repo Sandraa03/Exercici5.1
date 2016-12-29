@@ -3,7 +3,7 @@
 <package>
   <name>exercici51</name>
   <version>0.0.0</version>
-  <description>The piatek_description package</description>
+  <description>Exercici5.1 package</description>
 
   <maintainer email="sandraa_03@hotmail.es">Sandra</maintainer>
 
@@ -12,6 +12,14 @@
   <author email="sandraa_03@hotmail.es">Sandra</author>
 
   <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rviz</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>urdf</build_depend>
+  <build_depend>xacro</build_depend>
+  <run_depend>rviz</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>urdf</run_depend>
+  <run_depend>xacro</run_depend>
 
   <export>
   </export>
