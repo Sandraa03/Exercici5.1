@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<robot name="piatek">
+
+<!-- * * * Link Definitions * * * -->
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.32 0.26 0.085"/>
+      </geometry>
+      <material name="blak"/>
+    </visual>
+  </link>
+
+  <link name="motor_camera_link">
+    <visual>
+      <origin xyz="0 0 0.15" rpy="0 0 0" />
+      <!--<origin xyz="0 0.1 0.25" rpy="0 0 0" />-->
+      <geometry>
+        <mesh filename="package://piatek_description2/urdf/meshes/Final_design.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0 0 .8 1"/>
+      </material>
+    </visual>
+  </link>
+
+
+<!-- * * * Joint Definitions * * * -->
+
+</robot>
